@@ -60,14 +60,24 @@ The dataset used in this project includes detailed information about Uber rides,
 
 ---
 
-## 📌 Key Insights
+## 📊 Key Insights
 
 
-- **Demand Patterns:** Ride requests vary by time of day and day of week, with peaks during commute hours and weekends.  
-- **Cancellation Trends:** A significant fraction of bookings are cancelled; customer and driver cancellations show distinct patterns.  
-- **Revenue & Booking Analysis:** Booking values and distances reveal insight into pricing and ride durations.  
-- **Ratings Insights:** Customer and driver ratings provide a view of service quality and satisfaction.
+- Only 62% of rides are completed, with driver cancellations (47.4% of all failed rides) causing nearly half of all failures — the biggest reliability gap.  
+- Nearly 90% of customer cancellations are driven by four reasons(Change of plans, Driver asked to cancel, Driver not moving toward pickup, and Wrong address represent). Most notably, "Driver asked to cancel" and "Driver not moving," indicating that cancellations are often forced by supply-side behavior rather than customer intent.  
+- Peak-hour congestion (9–11 AM, 3–9 PM) drives the most cancellations due to supply–demand mismatch and pickup location issues.  
+- A few hotspots show high bookings but low completion, indicating operational inefficiencies.
+- Auto fleet delivers the highest completions and revenue, while short trips generate better revenue efficiency than long trips.
+- There is a 90%+ drop in revenue-per-km between short and long-distance trips.
 
+## 💡 Recommendations
+
+- Reduce cancellations with driver incentives and accountability tracking.
+- Improve peak-hour supply through demand forecasting and pre-positioning drivers in high-traffic zones.
+- Fix pickup accuracy using better GPS mapping and recommended pickup points.
+- Prioritize the expansion and maintenance of the Auto fleet.
+- Introduce in-app vehicle health checks (AC, tires, battery) to reduce "Vehicle Breakdown" cancellations, which peak during high-demand hours.
+- Optimize the distance-based fare scaling and pricing to improve long-trip profitability.
 
 ---
 
