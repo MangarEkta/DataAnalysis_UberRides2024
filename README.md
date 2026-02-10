@@ -33,7 +33,7 @@ The insights from this analysis can help improve:
 ---
 
 ## 🔗 Link
-Dataset Source: [Uber Ride Dataset 2024]([url](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard))
+Dataset Source: [Uber Ride Dataset 2024](https://www.kaggle.com/datasets/yashdevladdha/uber-ride-analytics-dashboard)
 
 ---
 
